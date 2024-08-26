@@ -40,8 +40,8 @@ jobs:
       - name: Fetch OCaml
         uses: actions/checkout@v4
         with:
-          repository: ocaml/ocaml
-          ref: ${{ inputs.compiler_ref }}
+          repository: MisterDA/ocaml
+          ref: winpthreadsectomy
           path: ocaml
           submodules: true
 
